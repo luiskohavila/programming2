@@ -14,13 +14,13 @@ Are a way to classify programming languages based on their features.
 
 ### Declarative
 
-- Functional:
+- [Functional](https://www.computerhope.com/jargon/f/functional-programming.htm):
 Programming paradigm where programs are constructed by applying and composing functions.
 
-- Dataflow:
+- [Dataflow](https://www.computerhope.com/jargon/d/dataflow-programming.htm):
 Programming paradigm that models a program as a directed graph of the data flowing between operations, thus implementing data flow principles and architecture.
 
-- Logic, Constraint-based:
+- [Logic, Constraint-based](https://www.computerhope.com/jargon/l/logic-programming.htm):
 Programming paradigm in which program statements express facts and rules about problems within a system of formal logic.
 
 - Template-based:
@@ -31,16 +31,16 @@ Programming paradigm aimed at improving the clarity, quality, and development ti
 
 ### Imperative
 
-- Von Neumann:
+- [Von Neumann](https://www.computerscience.gcse.guru/theory/von-neumann-architecture):
 Is based on the stored-program computer concept, where instruction data and program data are stored in the same memory.  This design is still used in most computers produced today.
 
-- Interpreted (Scripting):
+- [Interpreted (Scripting)](https://www.computerhope.com/jargon/s/script.htm):
 Is a computer language with a series of commands within a file that is capable of being executed without being compiled.
 
-- Object-oriented:
+- [Object-oriented](https://www.computerhope.com/jargon/o/oop.htm):
 It is a programming language paradigm. In an object-oriented program, the code can be structured as reusable components, some of which may share properties or behaviors.
 
-### Implementation methods
+### [Implementation methods](https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/)
 
 Interpreted Programming:
 - Directly execute source language program
@@ -54,7 +54,7 @@ Compiled Programming:
 
 ## Data Representations and Operators
 
-### Programming languages
+### [Programming languages](https://javarevisited.blogspot.com/2018/08/5-programming-language-every-programmer-learn.html)
 Formal languages, which comprise a set of instructions that produce various kinds of output.
 Examples:
 - Python
@@ -63,21 +63,24 @@ Examples:
 - JavaScript
 - Scala
 
-### Sequential Algorithms
+### [Spaghetti Code](https://www.urbandictionary.com/define.php?term=spaghetti%20code)
+It is code which flagrantly violates the principles of structured, procedural programming. Usually this means using lots of GOTO statements hence the term, which suggests the tangled and arbitrary nature of the program flow.
+
+### [Sequential Algorithms](https://www.sciencedirect.com/topics/computer-science/sequential-algorithm)
 Algorithm that is executed sequentially once through, from start to finish, without other processing executing as opposed to concurrently or in parallel.
 
-### Source Code
+### [Source Code](https://searchapparchitecture.techtarget.com/definition/source-code)
 Collection of code, possibly with comments, written using a human-readable programming language, usually as plain text.
 
 ### Data Representation in Structured Programming Language
 
-- Identifiers:
+- [Identifiers](http://aboutc.weebly.com/identifiers.html):
 An identifier is a string of alphanumeric characters that begins with an alphabetic character or an underscore character that are used to represent various programming elements such as variables, functions, arrays, structures, unions and so on. Actually, an identifier is a user-defined word.
 
-- Variables:
+- [Variables](https://www.kidscodecs.com/variables/):
 Variables are names used to hold one or more values. Instead of repeating these values in multiple places in your code, the variable holds the results of a calculation, database call, results of a database query, or other value. Instead of multiple calculations or the load of multiple database calls to retrieve the same data, the variable is stored in computer memory once and used wherever it is needed in your code. We cannot use keywords as a name of our variable.
 
-- Constants:
+- [Constants](https://press.rebus.community/programmingfundamentals/chapter/constants-and-variables):
 A constant is a data item whose value cannot change during the program’s execution. Thus, as its name implies – the value is constant.
 Constants are used in two ways. They are:
     - Literal constant
@@ -92,7 +95,7 @@ Constants are used in two ways. They are:
 | JavaScript | const PI = 3.14159;                             |
 |   Python   | PI = 3.14159                                    |
 
-- Reserved Words:
+- [Reserved Words](https://www.datamentor.io/r-programming/reserved-words/):
 Words that are reserved by a program because the word has a special meaning. Reserved Words can be commands or parameters. Every programming language has a set of keywords that cannot be used as variable names.
 
 - Types of Data:
@@ -120,12 +123,12 @@ Words that are reserved by a program because the word has a special meaning. Res
 |   double  |   8  |                       1.7E +/- 308                      |
 
 
-- Data Type Conversion:
+- [Data Type Conversion](https://docs.actian.com/ingres/11.0/index.html#page/EmbedSQL/Data_Type_Conversion.htm):
 Data type conversion occurs automatically for different numeric types such as from floating-point database column values into integer C variables, and for character strings, such as from varying-length Ingres character fields into fixed-length C character string buffers.
 
 ### Operators of Structured Programming Language
 
-- Conditional:
+- [Conditional](https://www.dotnettricks.com/learn/c/conditional-statements-if-else-switch-ladder):
 Conditional statements help you to make a decision based on certain conditions. These conditions are specified by a set of conditional statements having boolean expressions which are evaluated to a boolean value true or false.
 
 If statement: The single if statement in C language is used to execute the code if a condition is true.
@@ -140,7 +143,7 @@ If-Else If ladder: The if-else-if statement is used to execute one code from mul
 
 Switch statement: Is used to test a list of cases. A switch statement contains one or more case labels which are tested against the switch expression. When the expression matches a case then the associated statements with that case would be executed.
 
-- Logical:
+- [Logical](https://press.rebus.community/programmingfundamentals/chapter/logical-operators/):
 
 |  Language  | AND |  OR  | NOT |
 |:----------:|:---:|:----:|:---:|
@@ -173,10 +176,19 @@ Switch statement: Is used to test a list of cases. A switch statement contains o
 | False |  True |
 |  True | False |
 
-- Relationship:
-Programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality and inequalities.
+- [Relationship](https://press.rebus.community/programmingfundamentals/chapter/relational-operators/):
+An operator that gives a Boolean value by evaluating the relationship between two operands. These include numerical equality and inequalities.
 
-### Basic Functions of Input & Output
+| Operator |          Meaning          |
+|:--------:|:-------------------------:|
+|     <    |         less than         |
+|     >    |        greater than       |
+|    <=    |   less than or equal to   |
+|    >=    |  greater than or equal to |
+|    ==    |    equality (equal to)    |
+| != or <> | inequality (not equal to) |
+
+### [Basic Functions of Input & Output](https://www.studytonight.com/c/c-input-output-function.php)
 - Input: Input means to provide the program with some data to be used in the program
 	- scanf: Save a value specifying the type of data with an %, and them the name of the variable with after an &
 	- gets: It is used to get a string
@@ -187,31 +199,29 @@ Programming language construct or operator that tests or defines some kind of re
 
 ## Version Control
 
-### Distributed Version Control
+### [Distributed Version Control](https://www.perforce.com/blog/vcs/what-dvcs-anyway)
 
 In software development, distributed version control is a form of version control in which the complete codebase, including its full history, is mirrored on every developer's computer.
+- Advantages:
+    - Branching and merging can happen automatically and quickly
+    - Developers have the ability to work offline
+    - Multiple copies of the software eliminate reliance on a single backup
+- Most popular types of version control:
+    - Helix Core (Perforce)
+    - Git
+    - SVN
+    - ClearCase
+    - Mercurial
+    - TFS
 
-# References
-https://www.computerhope.com/jargon/o/oop.htm
+ 
+#### Steps to make a commit
+ ```
+ git init
+ git add *
+ git commit -m "first commit"
+ git push -u origin master
+ ```
+### Branches
+![How does it work](https://miro.medium.com/max/1000/1*8c7mfzA9kVjVYuTbQm4Lcg.png)
 
-https://www.computerhope.com/jargon/s/script.htm
-
-https://www.computerscience.gcse.guru/theory/von-neumann-architecture
-
-https://press.rebus.community/programmingfundamentals/chapter/logical-operators/
-
-https://www.dotnettricks.com/learn/c/conditional-statements-if-else-switch-ladder
-
-https://javarevisited.blogspot.com/2018/08/5-programming-language-every-programmer-learn.hml
-
-https://www.perforce.com/blog/vcs/what-dvcs-anyway
-
-https://www.webopedia.com/TERM/K/keyword.html
-
-https://www.kidscodecs.com/variables/
-
-http://aboutc.weebly.com/identifiers.html
-
-https://press.rebus.community/programmingfundamentals/chapter/constants-and-variables/#footnote-124-1
-
-https://www.studytonight.com/c/c-input-output-function.php
