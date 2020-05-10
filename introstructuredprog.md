@@ -342,7 +342,7 @@ Git stores data as a series of snapshots and saves a commit object that contains
 
 When making a commit, git stores the metadata of each file as a separate “blob” and uses a “tree” to list the directories of each blob and what is stored in each, while the commit works as a pointer to the tree.
 
-<img src="https://git-scm.com/book/en/v2/images/commit-and-tree.png" alt="alt text" width="700" height="500">
+<img src="https://git-scm.com/book/en/v2/images/commit-and-tree.png" alt="alt text" width="700" height="400">
 
 If you make some changes and commit again, the next commit stores a pointer to the commit that came immediately before it.
 
@@ -358,35 +358,35 @@ Creating a new branch makes a new pointer for you to move around.
 
 You can do this by using the ```git branch testing``` to create a branch named “testing”.
 
-<img src="https://git-scm.com/book/en/v2/images/two-branches.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/two-branches.png" alt="alt text" width="600" height="250">
 
 Git keeps a special pointer called `HEAD` to know in which branch you are currently on.
 
 The `git branch` command only created a new branch, in this case, it’s still on `master`.
 
-<img src="https://git-scm.com/book/en/v2/images/head-to-master.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/head-to-master.png" alt="alt text" width="550" height="300">
 
 The `git log` command that shows you where the branch pointers are pointing. This option is called `--decorate`.
 
 To switch to an existing branch, we run the `git checkout` command. This moves `HEAD` to point to the `testing` branch.
 
-<img src="https://git-scm.com/book/en/v2/images/head-to-testing.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/head-to-testing.png" alt="alt text" width="500" height="250">
 
 The `HEAD` branch moves forward when a commit is made. But in this case `master` branch still points to the commit when the run git checkout to switch branches was done.
 
-<img src="https://git-scm.com/book/en/v2/images/advance-testing.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/advance-testing.png" alt="alt text" width="550" height="230">
 
 By default, `git log` will only show commit history below the branch you’ve checked out. To show all of the branches, add `--all` to your `git log` command.
 
 When moving back to the `master` branch after doing a commit on another branch, this will move the HEAD pointer back, and it reverts the files in the working directory back to the snapshot that master points to.
 
-<img src="https://git-scm.com/book/en/v2/images/checkout-master.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/checkout-master.png" alt="alt text" width="550" height="230">
 
 NOTE: Switching branches changes files in your working directory
 
 By making changes to the `master` branch now, the project will be diverged. Meaning it is possible to switch back and forth between the branches and merge them together when ready.
 
-<img src="https://git-scm.com/book/en/v2/images/advance-master.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/advance-master.png" alt="alt text" width="550" height="300">
 
 Using `git log --oneline --decorate --graph --all` it shows how the history has diverged.
 
@@ -396,7 +396,7 @@ To Create a new branch and switch to it at the same time use `git checkout -b <n
 
 ### Basic Branching
 
-<img src="https://git-scm.com/book/en/v2/images/basic-branching-1.png" alt="alt text" width="550" height="350">
+<img src="https://git-scm.com/book/en/v2/images/basic-branching-1.png" alt="alt text" width="500" height="135">
 
 NOTE: It’s best to have a clean working state when you switch branches.
 
@@ -470,7 +470,7 @@ There is a certain workflow that many git developers use, and it is as follows:
 - A `develop` branch used to work from or use to test stability.
 - A `topic` branch to make sure code passes all the tests and doesn't introduce bugs.
 
-<img src="https://git-scm.com/book/en/v2/images/lr-branches-2.png" alt="alt text" width="600" height="400">
+<img src="https://git-scm.com/book/en/v2/images/lr-branches-2.png" alt="alt text" width="550" height="225">
 
 ## Remote Branching
 
