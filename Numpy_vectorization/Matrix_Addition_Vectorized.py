@@ -41,3 +41,5 @@ end_time = datetime.now() # Taking the current time
 # Subtract the time at the beginning mnus the end time in order to find how many time
 # the operation took
 print("\nDuration: {}".format(end_time - start_time))
+
+# Speed difference: 1.90x
