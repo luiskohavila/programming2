@@ -1,3 +1,5 @@
+# Luis Fernando Koh Avila
+# Data 2 B
 # My example seeing the incomes from an enterprise during 2019, 2020, 2021
 import matplotlib.pyplot as plt
 

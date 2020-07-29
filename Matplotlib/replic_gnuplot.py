@@ -1,3 +1,5 @@
+# Luis Fernando Koh Avila
+# Data 2 B
 # Replic of Professor's Juan Vasquez plot
 
 import matplotlib.pyplot as plt
