@@ -1,3 +1,6 @@
+# Luis Fernando Koh Avila
+# Data 2 B
+
 import random
 
 # Function that displays the Hangman according with the lives
@@ -109,7 +112,6 @@ for i in range(0,word_length):
 print("""
 Luis Fernando Koh Avila
 Data 2 B
-
                             Instructions
 This is the classic Hangman Game, you have to write a letter in order
 to find the word, you have 6 lives, if you lose all the lives game over.
@@ -175,3 +177,5 @@ while lives > 0 and word_length > 0: # Repeat the loop while accomplish the cond
   if(correct == word_length): # Finally if the size of the word is equal to the correct variable
     print("Congratulations!! you won!!") # Then the user won and show a message
     break # And break the loop
+
+# 1000 words txt document taken in: https://gist.github.com/deekayen/4148741
